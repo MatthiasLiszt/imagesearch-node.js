@@ -1,0 +1,26 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer",
+  "main": "server.js",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "express": "^4.15.2",
+    "images-scraper": "^2.0.11",
+    "ipware": "^1.0.0",
+    "ip": "^1.1.5",
+    "mongodb": "^2.2.26",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js ",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatthiasLiszt/imagesearch-node.js"
+  },
+  "author": "Matthias Liszt",
+  "license": "MIT"
+}
